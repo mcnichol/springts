@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body ng-controller="TowTruckCtrl">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+	  </div>
+	</nav>
+	<div id="map-canvas" style="margin-top: 70px"></div>
+	
+	<div>
+		<a href="event.html">
+			Add Event >> 
+		</a>
+	</div>
+	<div>
+		<a href="attendee.html">
+			Add Attendee >> 
+		</a>
+	</div>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<%@include file="WEB-INF/jspf/common/scripts.jspf" %>
+</html>

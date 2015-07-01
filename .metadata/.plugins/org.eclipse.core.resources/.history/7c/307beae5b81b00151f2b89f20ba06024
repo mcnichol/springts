@@ -1,0 +1,20 @@
+package com.allstate.ars;
+
+import static org.junit.Assert.fail;
+
+import org.junit.Test;
+import org.springframework.ui.Model;
+
+import com.allstate.ars.controller.HelloController;
+
+public class HelloControllerTest {
+
+	@Test
+	public void test() {
+		HelloController hello = new HelloController();
+		Model model = new Model();
+		assertTrue(hello.sayHello(model));
+		fail("Not yet implemented");
+	}
+
+}

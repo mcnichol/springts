@@ -1,0 +1,24 @@
+
+window.towtruck = [];
+
+function addTruck(data){
+	window.towtruck.push({
+		'lat' : data.lat,
+		'lng' : data.lng,
+		'id'  : data.id,
+		'name': data.name
+	});
+	
+	makeTruck(data);
+}
+
+function makeTruck(data){
+	truck = {
+		path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
+	    fillColor: 'yellow',
+	    fillOpacity: 0.2,
+	    scale: 1,
+	    strokeColor: 'gold',
+	    strokeWeight: 1
+	}
+}

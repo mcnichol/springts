@@ -1,0 +1,11 @@
+package com.allstate.ars.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EventsReportController {
+	
+	@RequestMapping("/events")
+	
+
+}

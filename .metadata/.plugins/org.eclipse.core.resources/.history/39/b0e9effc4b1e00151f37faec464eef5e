@@ -1,0 +1,6 @@
+
+window.towtruck = [];
+
+function addTruck(data){
+	alert("INSIDE");
+}

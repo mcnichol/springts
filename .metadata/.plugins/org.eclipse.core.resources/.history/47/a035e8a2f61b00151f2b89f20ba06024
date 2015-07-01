@@ -1,0 +1,5 @@
+package com.allstate.ars.controller;
+
+public class EventController {
+
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="map-canvas" style="height:400px"></div>
+	
+	<div>
+		<a href="event.html">
+			Add Event >> 
+		</a>
+	</div>
+	<div>
+		<a href="attendee.html">
+			Add Attendee >> 
+		</a>
+	</div>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</html>

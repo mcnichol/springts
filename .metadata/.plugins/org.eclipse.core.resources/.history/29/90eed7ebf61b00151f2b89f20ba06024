@@ -1,0 +1,5 @@
+package com.allstate.ars.model;
+
+public class Event {
+
+}

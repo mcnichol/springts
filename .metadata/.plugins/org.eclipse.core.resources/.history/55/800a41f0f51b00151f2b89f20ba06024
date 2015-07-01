@@ -1,0 +1,19 @@
+package com.allstate.ars;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.springframework.ui.Model;
+
+import com.allstate.ars.controller.HelloController;
+
+public class HelloControllerTest {
+	
+	@Test
+	public void test() {
+		HelloController hello = new HelloController();
+		assertEquals("hello",hello.sayHello(model));
+	}
+	
+
+}

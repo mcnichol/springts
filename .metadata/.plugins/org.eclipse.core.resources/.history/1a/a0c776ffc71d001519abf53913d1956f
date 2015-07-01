@@ -1,0 +1,4 @@
+Soze.attendee.name=Name must be between {2} and {1} Characters.
+
+attendee.name=Enter Name
+attendee.email.address=Enter Email Address

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: TowTruckTracker
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: milkeater
+Implementation-Vendor-Id: com.allstate.ars
+Build-Jdk: 1.8.0_45
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
